@@ -1,0 +1,114 @@
+Enter grid size (3-10):3
+Enter winning length (3-3):3
+
+	0 1 2 
+0	. . . 
+1	. . . 
+2	. . . 
+
+Player X, Choose Location (row,col): 0,0
+
+	0 1 2 
+0	X . . 
+1	. . . 
+2	. . . 
+
+Player O, Choose Location (row,col): 0,1
+
+	0 1 2 
+0	X O . 
+1	. . . 
+2	. . . 
+
+Player X, Choose Location (row,col): 1,1
+
+	0 1 2 
+0	X O . 
+1	. X . 
+2	. . . 
+
+Player O, Choose Location (row,col): 3,3
+Index out of range, please re-enter
+Player O, Choose Location (row,col): 2,2
+
+	0 1 2 
+0	X O . 
+1	. X . 
+2	. . O 
+
+Player X, Choose Location (row,col): 1,1
+This location is already taken
+Player X, Choose Location (row,col): 1,0
+
+	0 1 2 
+0	X O . 
+1	X X . 
+2	. . O 
+
+Player O, Choose Location (row,col): 0,2
+
+	0 1 2 
+0	X O O 
+1	X X . 
+2	. . O 
+
+Player X, Choose Location (row,col): 1,2
+
+	0 1 2 
+0	X O O 
+1	X X X 
+2	. . O 
+
+**************************
+Player X has won the game
+**************************
+
+Would you like to play back the recorded game? (y,n)? y
+
+	0 1 2 
+0	X . . 
+1	. . . 
+2	. . . 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O . 
+1	. . . 
+2	. . . 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O . 
+1	. X . 
+2	. . . 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O . 
+1	. X . 
+2	. . O 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O . 
+1	X X . 
+2	. . O 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O O 
+1	X X . 
+2	. . O 
+
+Next or Exit (n,e)? n
+
+	0 1 2 
+0	X O O 
+1	X X X 
+2	. . O 
+

@@ -1,0 +1,52 @@
+Enter grid size (3-10):3
+Enter winning length (3-3):3
+
+	0 1 2 
+
+0	. . . 
+1	. . . 
+2	. . . 
+
+Player X, Choose Location (row,col): 1,1
+
+	0 1 2 
+
+0	. . . 
+1	. X . 
+2	. . . 
+
+Player O, Choose Location (row,col): 1,0
+
+	0 1 2 
+
+0	. . . 
+1	O X . 
+2	. . . 
+
+Player X, Choose Location (row,col): 0,1
+
+	0 1 2 
+
+0	. X . 
+1	O X . 
+2	. . . 
+
+Player O, Choose Location (row,col): 2,0
+
+	0 1 2 
+
+0	. X . 
+1	O X . 
+2	O . . 
+
+Player X, Choose Location (row,col): 2,1
+
+	0 1 2 
+
+0	. X . 
+1	O X . 
+2	O X . 
+
+**************************
+Player X has won the game
+**************************
